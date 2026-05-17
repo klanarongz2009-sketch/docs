@@ -1,0 +1,62 @@
+{
+  "projectType": "saas",
+  "projectName": "Zap Games",
+  "projectDescription": "A cyberpunk-themed online gaming platform where players can access and play immersive simulation games like Neon Void Rider and Neural Breach.",
+  "theme": "luma",
+  "primaryColor": "#00FF41",
+  "lightColor": null,
+  "darkColor": "#0D0D0D",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "quickstart",
+              "authentication"
+            ]
+          },
+          {
+            "group": "Games",
+            "pages": [
+              "games/overview",
+              "games/neon-void-rider",
+              "games/neural-breach"
+            ]
+          },
+          {
+            "group": "Your Account",
+            "pages": [
+              "account/profile",
+              "account/settings",
+              "account/progress"
+            ]
+          },
+          {
+            "group": "Help",
+            "pages": [
+              "help/faq",
+              "help/troubleshooting"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Cyberpunk-themed gaming experience",
+    "Multiple simulation games (Neon Void Rider, Neural Breach)",
+    "Secure authentication via Google, Apple, or legacy credentials",
+    "Game status and progress tracking",
+    "Immersive dormant simulation system"
+  ],
+  "publicApiSurface": [
+    "Authentication (Google OAuth, Apple Sign-In, legacy credentials)",
+    "Game session management",
+    "Player profile and progress",
+    "Game status system (DORMANT_SIMULATION, active states)"
+  ]
+}

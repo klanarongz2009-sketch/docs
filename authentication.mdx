@@ -1,0 +1,96 @@
+---
+title: "Authenticate with Zap Games"
+description: "Sign in to Zap Games using Google, Apple, or legacy username and password credentials. Learn how to manage your login and switch providers."
+sidebarTitle: "Authentication"
+---
+
+Zap Games supports three authentication methods so you can access the platform securely using the credentials you already have. You can sign in with Google, Apple, or email. All sessions are encrypted via Firebase Auth (TLS 1.3).
+
+## Sign-in options
+
+<Tabs>
+  <Tab title="Google">
+    Sign in with your existing Google account — no new password to remember.
+
+    <Steps>
+      <Step title="Open the login screen">
+        Navigate to [zap-games-architect.vercel.app](https://zap-games-architect.vercel.app).
+      </Step>
+      <Step title="Click Google">
+        Click the **Google** sign-in button under **\[SYSTEM\_ACCESS\]**.
+      </Step>
+      <Step title="Authorize access">
+        A Google sign-in popup will appear. Select your account and grant access.
+      </Step>
+      <Step title="Authenticate">
+        You'll be redirected to the Zap Games dashboard automatically.
+      </Step>
+    </Steps>
+  </Tab>
+  <Tab title="Apple">
+    Use your Apple ID for fast, privacy-focused sign-in.
+
+    <Steps>
+      <Step title="Open the login screen">
+        Navigate to [zap-games-architect.vercel.app](https://zap-games-architect.vercel.app).
+      </Step>
+      <Step title="Click Apple">
+        Click the **Apple** sign-in button on the login screen.
+      </Step>
+      <Step title="Sign in with Apple ID">
+        Follow the Apple authentication flow. You may be prompted to use Face ID, Touch ID, or your Apple ID password.
+      </Step>
+      <Step title="Authenticate">
+        Once verified, you'll be redirected to the Zap Games dashboard.
+      </Step>
+    </Steps>
+
+    <Note>
+      Apple Sign-In may hide your email address and use a relay address instead. This does not affect your Zap Games account functionality.
+    </Note>
+  </Tab>
+  <Tab title="Email">
+    Use an email and password if you prefer not to link a third-party provider.
+
+    <Steps>
+      <Step title="Open the login screen">
+        Navigate to [zap-games-architect.vercel.app](https://zap-games-architect.vercel.app).
+      </Step>
+      <Step title="Select email sign-in">
+        Click **Continue with Email** on the login screen.
+      </Step>
+      <Step title="Enter your credentials">
+        Type your email and password into the provided fields.
+      </Step>
+      <Step title="Authenticate">
+        Click **AUTHENTICATE** to sign in.
+      </Step>
+    </Steps>
+  </Tab>
+</Tabs>
+
+## Account creation
+
+If you're signing in for the first time, your Zap Games account is created automatically. No separate registration form is required — just sign in and your account is ready.
+
+## Troubleshooting sign-in issues
+
+If you're unable to sign in, see common causes and fixes below:
+
+<AccordionGroup>
+  <Accordion title="I can't remember which method I used to sign up">
+    Try each sign-in method (Google, Apple, Email). If none work, use the email option and attempt a password reset via the login screen.
+  </Accordion>
+
+  <Accordion title="My Google or Apple sign-in isn't working">
+    Ensure your browser allows pop-ups from the Zap Games domain, and that you're signed into the relevant Google or Apple account in your browser. Try clearing cookies and retrying.
+  </Accordion>
+
+  <Accordion title="I forgot my password">
+    On the login screen, select **Continue with Email** and look for the password reset option. You'll receive a reset link by email.
+  </Accordion>
+
+  <Accordion title="I see a 'System Under Development' warning">
+    This banner appears when the authentication system is undergoing maintenance. The platform remains accessible for authorized users. If you cannot sign in, wait a few minutes and try again.
+  </Accordion>
+</AccordionGroup>

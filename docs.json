@@ -1,0 +1,71 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "name": "Zap Games",
+  "theme": "luma",
+  "colors": {
+    "primary": "#00FF41",
+    "dark": "#0D0D0D"
+  },
+  "appearance": {
+    "default": "dark"
+  },
+  "navbar": {
+    "primary": {
+      "type": "button",
+      "label": "Play Now",
+      "href": "https://zap-games-architect.vercel.app"
+    }
+  },
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "quickstart",
+              "authentication"
+            ]
+          },
+          {
+            "group": "Games",
+            "pages": [
+              "games/overview",
+              "games/neon-void-rider",
+              "games/neural-breach"
+            ]
+          },
+          {
+            "group": "Your Account",
+            "pages": [
+              "account/profile",
+              "account/settings",
+              "account/progress"
+            ]
+          },
+          {
+            "group": "Help",
+            "pages": [
+              "help/faq",
+              "help/troubleshooting"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "background": {
+    "decoration": "gradient"
+  },
+  "interaction": {
+    "drilldown": true
+  },
+  "metadata": {
+    "timestamp": true
+  },
+  "seo": {
+    "indexing": "all"
+  }
+}
